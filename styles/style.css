@@ -78,13 +78,12 @@ header {
   color: #f2cd97;
 }
 
-/* Layout */
-
-section,
-header,
-footer {
-  padding: 0 3em;
+.menu-hamburger {
+  font-size: 2.5rem;
+  cursor: pointer;
 }
+
+/* Layout */
 
 .nav-list {
   display: flex;
@@ -130,4 +129,67 @@ footer {
 
 .nav-open {
   transform: translate(-100%);
+}
+
+.nav-menu {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  height: 50vh;
+  background: url(../assets/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.hero-overlay {
+  width: 53%;
+  text-align: center;
+  padding: 3em 2em;
+  background-color: hsla(42, 17.3%, 26.1%, 0.95);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  line-height: 0.9;
+  color: #ecb76a;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  width: 90%;
+}
+
+.hero-p {
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+  font-size: 0.9rem;
+  color: white;
+  padding: 0.8em 1.5em;
+  background: #2a6081;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: hsl(203, 50.9%, 30%);
 }
