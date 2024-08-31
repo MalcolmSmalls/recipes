@@ -48,47 +48,50 @@
         <main>
             <section class="section recipes-section padding">
                 <h2 class="section-title">Recipes</h2>
-                <input class="section-search-bar" type="text" placeholder="Enter a keyword to search" aria-label="Enter a keyword to search">
+                <div class="section-search-wrapper">
+                    <input class="section-search-bar" type="text" placeholder="Enter a keyword to search" aria-label="Enter a keyword to search">
+                    <div class="section-search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
                 <div class="section-recipes-wrapper">
 
                     <div class="section-recipes-item">
                         <div class="section-recipes-item-image">
                             <div class="section-recipes-item-badge">Dinner</div>
+                        </div>
                             <div class="section-recipes-item-meta">
                                 <h3 class="section-recipes-item-title">Fetuccine Alfredo</h3>
                                 <p class="section-recipes-item-author">by John Blue</p>
                             </div>
-                        </div>
                     </div>
 
                     <div class="section-recipes-item">
                         <div class="section-recipes-item-image">
                             <div class="section-recipes-item-badge">Dinner</div>
+                        </div>
                             <div class="section-recipes-item-meta">
                                 <h3 class="section-recipes-item-title">Fetuccine Alfredo</h3>
                                 <p class="section-recipes-item-author">by John Blue</p>
                             </div>
-                        </div>
                     </div>
 
                     <div class="section-recipes-item">
                         <div class="section-recipes-item-image">
                             <div class="section-recipes-item-badge">Dinner</div>
+                        </div>
                             <div class="section-recipes-item-meta">
                                 <h3 class="section-recipes-item-title">Fetuccine Alfredo</h3>
                                 <p class="section-recipes-item-author">by John Blue</p>
                             </div>
-                        </div>
                     </div>
 
                     <div class="section-recipes-item">
                         <div class="section-recipes-item-image">
                             <div class="section-recipes-item-badge">Dinner</div>
+                        </div>
                             <div class="section-recipes-item-meta">
                                 <h3 class="section-recipes-item-title">Fetuccine Alfredo</h3>
                                 <p class="section-recipes-item-author">by John Blue</p>
                             </div>
-                        </div>
                     </div>
 
 
@@ -98,25 +101,28 @@
                 </div>
             </section>
 
-            <section class="section about-section">
+            <section class="section about-section padding">
                 <h2 class="section-title">About</h2>
-                <h3 class="about-section-text">I'm Chef Jones</h3>
-                <p class="about-section-paragraph">It is my goal to bring you delicious, healthy and affordable meals. I understand the importance of food in bonding us with one another. My aim is to heighten these moments and bring flavor to the experience.</p>
-                <a class="btn about-section-btn" href="#">Learn More</a>
+                <div class="about-section-wrapper">
+                    <h3 class="about-section-text">I'm Chef Jones,</h3>
+                    <p class="about-section-paragraph">It is my goal to bring you delicious, healthy and affordable meals. I understand the importance of food in bonding us with one another. My aim is to heighten these moments and bring flavor to the experience.</p>
+                    <img class="about-section-image" src="./assets/chef-jones.jpg" alt="chef jones flambeing food with fanning flames">
+                    <a class="btn about-section-btn" href="#">Learn More</a>
+                </div>
             </section>
 
-            <section class="section contact-section">
+            <section class="section contact-section padding">
                 <h2 class="section-title">Contact</h2> 
                 <form class="contact-section-form">
                     <input class="contact-input" type="text" aria-label="Enter First Name" placeholder="First Name">
                     <input class="contact-input" type="text" aria-label="Enter Last Name" placeholder="Last Name">
                     <input class="contact-input" type="email" aria-label="Enter E-mail Address" placeholder="E-mail Address">
                     <input class="contact-input" type="text" aria-label="Enter Subject of Inquiry" placeholder="Subject Line">
-                    <textarea class="contact-textarea" aria-label="Enter your comment" placholder="Comments"></textarea>
+                    <textarea class="contact-textarea" aria-label="Enter your comment" placeholder="Comments"></textarea>
                     <button class="btn contact-btn" type="submit">Submit</button>
                 </form>
             </section>
-            <footer>
+            <footer class="padding">
                 <div class="footer-top">
                     <div class="footer-top-left">
                         <ul class="footer-top-list">
@@ -134,11 +140,11 @@
                         </ul>
                     </div>
                     <div class="footer-top-right">
-                        <img src="./assets/chilli-footer.svg" alt="chilli typography logo">
+                        <img class="footer-logo" src="./assets/chilli-footer.svg" alt="chilli typography logo">
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p class="footer-bottom-text">Copyright<span>&copy;</span>Malcolm Smalls</p>
+                    <p class="footer-bottom-text">Copyright<span class="span-accent"> &copy; </span>Malcolm Smalls</p>
                 </div>
             </footer>
 
