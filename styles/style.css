@@ -39,6 +39,15 @@ h5,
 h6 {
   font-weight: 800;
 }
+.nav-list,
+.hero-title,
+.section-title,
+.section-recipes-item-title,
+.about-section-text,
+.footer-top-list-link,
+.footer-bottom {
+  text-transform: uppercase;
+}
 
 body,
 a {
@@ -47,6 +56,13 @@ a {
 
 p {
   font-family: 'Dosis', sans-serif;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder,
+.section-title,
+.section-recipes-item {
+  color: #4e4737;
 }
 
 a,
@@ -66,7 +82,6 @@ header {
 
 .nav-list {
   font-size: 4rem;
-  text-transform: uppercase;
 }
 
 .nav-list-link:hover,
@@ -138,6 +153,10 @@ header {
   align-items: center;
 }
 
+/* 
+HERO 
+*/
+
 .hero {
   min-height: 70vh;
   background: url(../assets/hero-bg.jpg);
@@ -166,7 +185,6 @@ header {
 }
 
 .hero-title {
-  text-transform: uppercase;
   line-height: 0.9;
   color: #ecb76a;
   font-size: 2rem;
@@ -185,7 +203,7 @@ header {
   display: inline-block;
   font-size: 0.9rem;
   color: white;
-  padding: 0.8em 1.5em;
+  padding: 0.8em 1.8em;
   background: #2a6081;
   font-weight: 700;
   border-radius: 5px;
@@ -198,11 +216,13 @@ header {
 
 .section-title {
   margin: 1.5em 0 1em;
-  text-transform: uppercase;
   font-weight: 400;
   border-bottom: 1px solid #4e4737;
-  color: #4e4737;
 }
+
+/* 
+RECIPES 
+*/
 
 .section-search-bar {
   padding: 1em;
@@ -228,7 +248,6 @@ header {
 }
 
 .section-recipes-item {
-  color: #4e4737;
   margin: 2em auto;
 }
 
@@ -249,10 +268,6 @@ header {
   bottom: 0;
   border-radius: 0;
 }
-/* .recipes-section {
-  display: flex;
-  flex-direction: column;
-} */
 
 .section-recipes-item-meta {
   line-height: 1;
@@ -260,7 +275,6 @@ header {
 }
 
 .section-recipes-item-title {
-  text-transform: uppercase;
   font-size: 1.5rem;
 }
 
@@ -268,6 +282,10 @@ header {
   margin: 0;
   font-size: 0.8rem;
 }
+
+/* 
+ABOUT 
+*/
 
 .about-section-wrapper {
   display: flex;
@@ -282,7 +300,6 @@ header {
 
 .about-section-text {
   margin-top: 1em;
-  text-transform: uppercase;
 }
 
 .about-section-btn {
@@ -294,6 +311,14 @@ header {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.alt-color {
+  background-color: #cc6b43;
+}
+
+/* 
+CONTACT 
+*/
 
 .contact-section {
   padding-top: 0.5em;
@@ -316,11 +341,6 @@ header {
   border-radius: 3px;
 }
 
-.contact-input::placeholder,
-.contact-textarea::placeholder {
-  color: #4e4737;
-}
-
 .contact-textarea {
   height: 8em;
 }
@@ -338,6 +358,10 @@ header {
   background-color: hsl(36, 77.4%, 57.1%);
 }
 
+/* 
+FOOTER 
+*/
+
 footer {
   background-color: #4e4737;
 }
@@ -351,7 +375,6 @@ footer {
 
 .footer-top-list-link {
   color: rgba(255, 255, 255, 0.4);
-  text-transform: uppercase;
 }
 
 .footer-middle-social-list-link {
@@ -412,8 +435,6 @@ footer {
   padding: 1em 0 3em;
   color: #ecb76a;
   border-top: 1px solid white;
-  text-transform: uppercase;
-
   font-weight: 700;
   font-size: 0.8rem;
 }
